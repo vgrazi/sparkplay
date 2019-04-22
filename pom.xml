@@ -18,7 +18,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-core_2.12</artifactId>
+      <artifactId>spark-core_2.11</artifactId>
       <version>2.4.0</version>
     </dependency>
 
@@ -29,12 +29,12 @@
       <version>4.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>org.scalatest</groupId>
-      <artifactId>scalatest</artifactId>
-      <version>1.2</version>
-      <scope>test</scope>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>org.scalatest</groupId>-->
+      <!--<artifactId>scalatest</artifactId>-->
+      <!--<version>1.2</version>-->
+      <!--<scope>test</scope>-->
+    <!--</dependency>-->
   </dependencies>
 
   <build>
